@@ -1,5 +1,6 @@
 # Project Name
-Order-Manager by Owner: Owner can manage the order of the client easily.
+Order/Product-Manager by Owner: Owner can manage the order of the client easily.
+
 ## Overview
 This project is a web application designed to manage orders and calculate total order values. It allows users to add, update, and delete orders, view the total order value, and search for specific orders. The application integrates Google OAuth for authentication, ensuring secure access to authorized users only.
 
@@ -9,9 +10,6 @@ This project is a web application designed to manage orders and calculate total 
 - React Router
 - Axios
 - Tailwind CSS
-- Google OAuth
-- JSON Server (for mock API)
-- jwt-decode
 - Vite (for development)
 
 ## Features
@@ -53,16 +51,6 @@ Follow these steps to get the project up and running on your local machine.
 ## Usage To use the application:
 
 Open your web browser and navigate to http://localhost:5173.
-Log in using your Google account.
-Once authenticated, you can add, update, delete orders, view total order value, and search for specific orders.
 
-## Authentication:
-Authentication is implemented using Google OAuth. Users must log in with their Google account to access the application. Only authenticated users can perform CRUD operations on orders.
 
-## Social Media
 
-Follow me on social media for updates and more! If you have any issues running this project, please feel free to drop me a message.
-
-* [LinkedIn](https://www.linkedin.com/in/vikashsprem)
-* [Twitter](https://twitter.com/vikashsprem)
-* [GitHub](https://github.com/vikashsprem)
